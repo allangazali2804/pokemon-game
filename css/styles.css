@@ -1,5 +1,15 @@
 * {
     font-family: 'ABeeZee', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: #FFFADD;
+}
+button {
+    border: none;
+    background-color: #FFCC70;
+    padding: 5px;
 }
 
 .header, .footer {
@@ -12,8 +22,13 @@
 }
 
 .content {
-    margin: 5%;
+    padding: 1%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+img{
+    height: 200px;
+    width: 300px;
 }
